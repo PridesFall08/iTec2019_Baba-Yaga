@@ -4,10 +4,8 @@ public class PlayerMovement : MonoBehaviour
 {
     public float speed;
     
-    void Update()
+    void FixedUpdate()
     {
-        transform.position = new Vector3(transform.position.x + Input.GetAxis("Vertical") * speed * Time.deltaTime, 
-            transform.position.y, 
-            transform.position.z + Input.GetAxis("Horizontal") * speed * Time.deltaTime * -1);
+        transform.Translate(new Vector3(Input.GetAxis("Vertical") * speed * Time.deltaTime, 0, Input.GetAxis("Horizontal") * speed * Time.deltaTime * -1));
     }
 }
