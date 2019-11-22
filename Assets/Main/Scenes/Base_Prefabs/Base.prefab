@@ -260,6 +260,7 @@ Transform:
   - {fileID: 7373754373842119383}
   - {fileID: 3013342653763749210}
   - {fileID: 1302186497338814747}
+  - {fileID: 5542024505056073348}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -337,4 +338,79 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2194897037259654678, guid: 192926aaac92c884eb9c13e39428c60c,
     type: 3}
   m_PrefabInstance: {fileID: 893855131695314701}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6372108335575646035
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2211462645862613217}
+    m_Modifications:
+    - target: {fileID: 9160293822453953405, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_Name
+      value: Bomboo Stick
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b187fe051b4a1844bafcc672a3a6b50e, type: 3}
+--- !u!4 &5542024505056073348 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+    type: 3}
+  m_PrefabInstance: {fileID: 6372108335575646035}
   m_PrefabAsset: {fileID: 0}
