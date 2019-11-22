@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\adipo\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\adipo\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Project 1.10548174.00" t="ExcludeRecursive" />
+    <e p="F:\Hackathons\Baba-Yaga\iTec 2019\Project 1" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="External" t="Include">
+          <e p="Examples" t="Include">
+            <e p="Universal Render Pipeline Example" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="SimpleCameraController.cs" t="Include" />
+              </e>
+              <e p="TutorialInfo" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="Editor" t="Include">
+                    <e p="ReadmeEditor.cs" t="Include" />
+                  </e>
+                  <e p="Readme.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Main" t="Include">
+          <e p="Characters" t="Include">
+            <e p="Player" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="CameraFollow.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Project 1.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
