@@ -9,13 +9,13 @@ public class BambooDetector : MonoBehaviour
 
     void OnTriggerStay(Collider other)
     {
-        print(other.gameObject.tag);
         if (Input.GetButtonDown("Jump") && other.gameObject.CompareTag("Bamboo"))
         {
-            
             other.transform.SetParent(mouth.transform);
-            other.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;
             other.transform.position = mouth.transform.position;
+            other.transform.rotation = mouth.transform.rotation;
+            other.enabled = false;
+            other.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
         }
     }
 }
