@@ -1,32 +1,19 @@
 fileFormatVersion: 2
-guid: 5c754cf3d3822cc4cafa84f503c85960
+guid: c41fb87879263e5448bba338a5067f69
 ModelImporter:
   serializedVersion: 28
-  internalIDToNameTable:
-  - first:
-      74: -623603649343465320
-    second: Wind_1
+  internalIDToNameTable: []
   externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Bamboo_Brown_2
-    second: {fileID: 2100000, guid: dae4bc1eea8e58f4bb65fdb2ad0bbced, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Bamboo_Green_2
-    second: {fileID: 2100000, guid: ac4f5d7b6cedacc4483999795d938f3b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Bamboo_LightGreen_2
-    second: {fileID: 2100000, guid: b570f03932fda5f4a8860c75b5d65c0c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Leaves_1
     second: {fileID: 2100000, guid: 44c6d918ed520854aab933dba6dbd236, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trunk_1
+    second: {fileID: 2100000, guid: 5434f14a4c4df3e43a99d2efc143164a, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -53,36 +40,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Wind_1
-      takeName: Scene
-      internalID: 0
-      firstFrame: 1
-      lastFrame: 250
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 1
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -93,8 +51,8 @@ ModelImporter:
     sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1

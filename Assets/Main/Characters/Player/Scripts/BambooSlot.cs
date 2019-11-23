@@ -36,7 +36,7 @@ public class BambooSlot : MonoBehaviour
         {
             if (bamboo == null && bambooOnGround != null)
                 EquipBamboo(bambooOnGround);
-            else
+            else if (bamboo != null)
                 DropBamboo();
         }
     }

@@ -268,18 +268,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Environment
       objectReference: {fileID: 0}
-    - target: {fileID: 4421874311863237072, guid: 73b5b4309755484489e43bd8fa60c013,
-        type: 3}
-      propertyPath: m_TerrainData
-      value: 
-      objectReference: {fileID: 15600000, guid: 99826ee38f932894ca3897b6f9b44462,
-        type: 2}
-    - target: {fileID: 7676625643689659454, guid: 73b5b4309755484489e43bd8fa60c013,
-        type: 3}
-      propertyPath: m_TerrainData
-      value: 
-      objectReference: {fileID: 15600000, guid: 99826ee38f932894ca3897b6f9b44462,
-        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73b5b4309755484489e43bd8fa60c013, type: 3}
 --- !u!4 &3013342653763749210 stripped
