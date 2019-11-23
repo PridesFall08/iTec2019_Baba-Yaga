@@ -1,45 +1,41 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class SmallBamboo : MonoBehaviour, IBamboo
+public class SmallBamboo : Bamboo
 {
-    public Transform bitePoint, biter;
-    public float speedMultiplier;
-    private Transform oldParent, currentParent;
+    public Transform bambooSnapPoint = null;
     
-    public Transform GetBitePoint()
+    private Transform _mouthSnapPoint = null;
+    private Rigidbody _body;
+
+    private void Start()
     {
-        return bitePoint;
-        /*trans
-        bamboo.transform.SetParent(mouth);
-        bamboo.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
-        bamboo.transform.position = mouth.position;
-        bamboo.transform.rotation = mouth.rotation;
-        bamboo.GetComponent<Collider>().enabled = false;
-        return speedMultiplier;*/
+        _body = GetComponent<Rigidbody>();
     }
 
-    public float GetSpeedMultiplier()
+    public override void Attach(Transform mouth)
     {
-        return 0.5f;
+        _mouthSnapPoint = mouth;
+        _body.MovePosition(_mouthSnapPoint.position);
+        _body.MoveRotation(_mouthSnapPoint.rotation);
+        transform.GetComponent<Collider>().enabled = false;
+        _body.constraints = RigidbodyConstraints.FreezeRotation;
+        _body.useGravity = false;
     }
 
-    public float LetGo()
+    public override void Detach(Transform mouth)
     {
-        bamboo.transform.SetParent(oldParent);
-        bamboo.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
-        bamboo.GetComponent<Collider>().enabled = true;
-        bamboo = null;
-        return 1f;
+        _mouthSnapPoint = null;
+        transform.GetComponent<Collider>().enabled = true;
+        _body.constraints = RigidbodyConstraints.None;
+        _body.useGravity = true;
     }
 
     private void Update()
     {
-        if (biter != null)
+        if (_mouthSnapPoint != null)
         {
-            transform.position = biter.transform.position;
+            _body.MovePosition(_mouthSnapPoint.position);
+            _body.MoveRotation(_mouthSnapPoint.rotation);
         }
     }
 }

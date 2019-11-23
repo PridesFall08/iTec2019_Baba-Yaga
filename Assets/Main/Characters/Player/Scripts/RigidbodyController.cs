@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class RigidbodyController : MonoBehaviour
 {
-    private Animator anim;
-    public float Speed = 2f;
+    private Animator _anim;
+    public float speed = 2f;
+    public float speedMultiplier = 1f;
     //public float JumpHeight = 2f;
     //public float GroundDistance = 0.2f;
     //public LayerMask Ground;
@@ -17,7 +18,7 @@ public class RigidbodyController : MonoBehaviour
 
     void Start()
     {
-        anim = GetComponentInChildren<Animator>();
+        _anim = GetComponentInChildren<Animator>();
         _body = GetComponent<Rigidbody>();
         //_groundChecker = transform.GetChild(0);
     }
@@ -29,8 +30,9 @@ public class RigidbodyController : MonoBehaviour
         _inputs = Vector3.zero;
         _inputs.x = Input.GetAxis("Horizontal");
         _inputs.z = Input.GetAxis("Vertical");
-        anim.SetFloat("Horizontal", _inputs.x);
-        anim.SetFloat("Vertical", _inputs.z);
+        _anim.SetFloat("Horizontal", _inputs.x);
+        _anim.SetFloat("Vertical", _inputs.z);
+        _anim.SetFloat("SpeedMultiplier", speedMultiplier);
 
         /*if (Input.GetButtonDown("Jump") && _isGrounded)
         {
@@ -41,10 +43,15 @@ public class RigidbodyController : MonoBehaviour
     void FixedUpdate()
     {
         Vector3 newPosition = _body.position + transform.TransformDirection (new Vector3(
-                                  _inputs.x * Speed * Time.fixedDeltaTime,
+                                  _inputs.x * speed * speedMultiplier * Time.fixedDeltaTime,
                                   0,
-                                  _inputs.z * Speed * Time.fixedDeltaTime));
+                                  _inputs.z * speed * speedMultiplier * Time.fixedDeltaTime));
         _body.MovePosition (newPosition);
 
+    }
+
+    public void ResetSpeedMultiplier()
+    {
+        speedMultiplier = 1f;
     }
 }
