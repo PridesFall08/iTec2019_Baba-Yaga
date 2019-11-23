@@ -19,6 +19,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!33 &2955299350198050188
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4173713817591669774}
+  m_Mesh: {fileID: 4781277628412113339, guid: 5c754cf3d3822cc4cafa84f503c85960, type: 3}
+--- !u!33 &4397481972921682624
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357882347088281587}
+  m_Mesh: {fileID: 4781277628412113339, guid: 5c754cf3d3822cc4cafa84f503c85960, type: 3}
 --- !u!1001 &1071534066403694726
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29,7 +45,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 5c754cf3d3822cc4cafa84f503c85960,
         type: 3}
       propertyPath: m_Name
-      value: Bamboo_Tree_2_test
+      value: Bamboo_Tree_1_v1
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5c754cf3d3822cc4cafa84f503c85960,
         type: 3}
@@ -91,6 +107,18 @@ PrefabInstance:
 --- !u!1 &9079036500023673231 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 5c754cf3d3822cc4cafa84f503c85960,
+    type: 3}
+  m_PrefabInstance: {fileID: 1071534066403694726}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4173713817591669774 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3977479005409918088, guid: 5c754cf3d3822cc4cafa84f503c85960,
+    type: 3}
+  m_PrefabInstance: {fileID: 1071534066403694726}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &357882347088281587 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 732308379483809653, guid: 5c754cf3d3822cc4cafa84f503c85960,
     type: 3}
   m_PrefabInstance: {fileID: 1071534066403694726}
   m_PrefabAsset: {fileID: 0}
