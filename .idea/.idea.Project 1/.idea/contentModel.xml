@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\adipo\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -32,6 +32,15 @@
                 <e p="BambooSlot.cs" t="Include" />
                 <e p="CameraFollow.cs" t="Include" />
                 <e p="PlayerMovement.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Props" t="Include">
+            <e p="Bamboo" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="BigBamboo.cs" t="Include" />
+                <e p="IBamboo.cs" t="Include" />
+                <e p="SmallBamboo.cs" t="Include" />
               </e>
             </e>
           </e>

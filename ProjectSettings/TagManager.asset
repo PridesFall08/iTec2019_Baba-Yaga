@@ -4,7 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Bamboo
+  - Bamboo_big
+  - Bamboo_small
+  - BitePoint
   layers:
   - Default
   - TransparentFX

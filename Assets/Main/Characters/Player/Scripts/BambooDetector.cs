@@ -11,11 +11,11 @@ public class BambooDetector : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Bamboo"))
-            bambooSlot.bambooOnGround = other.gameObject;
+            bambooSlot.targetBamboo = other.gameObject.GetComponent<IBamboo>();
     }
 
     private void OnTriggerExit(Collider other)
     {
-        bambooSlot.bambooOnGround = null;
+        bambooSlot.targetBamboo = null;
     }
 }

@@ -76,7 +76,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7add8e6995d50564cb7732cb7f497041, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bambooSlot: {fileID: 7471337594422605220}
+  smallbambooSlot: {fileID: 7471337594422605220}
+  bigBambooSlot: {fileID: 0}
 --- !u!1 &3280455147683710865
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,9 +319,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 6471417986672641719}
-  bambooSlot: {fileID: 0}
+  smallBambooSlot: {fileID: 7471337594422605220}
   speed: 2
-  speedMultiplier: 0
+  speedMultiplier: 1
 --- !u!114 &7471337594422605220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -333,6 +334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e484a88f856becb4da01f6aa0c8422c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerMovement: {fileID: 893855131849663110}
   bamboo: {fileID: 0}
   bambooOnGround: {fileID: 0}
   Mouth: {fileID: 8843075423345504762}

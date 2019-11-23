@@ -123,6 +123,7 @@ Transform:
   - {fileID: 3013342653763749210}
   - {fileID: 1302186497338814747}
   - {fileID: 5542024505056073348}
+  - {fileID: 1001578116026473119}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -276,6 +277,81 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4426817363078351948}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4660416462318011855
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2211462645862613217}
+    m_Modifications:
+    - target: {fileID: 2797835373356615162, guid: d35399cf4d0eb1a459018ae427dd7a2b,
+        type: 3}
+      propertyPath: m_Name
+      value: Bomboo Trunk
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569670613763170128, guid: d35399cf4d0eb1a459018ae427dd7a2b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569670613763170128, guid: d35399cf4d0eb1a459018ae427dd7a2b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569670613763170128, guid: d35399cf4d0eb1a459018ae427dd7a2b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569670613763170128, guid: d35399cf4d0eb1a459018ae427dd7a2b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569670613763170128, guid: d35399cf4d0eb1a459018ae427dd7a2b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569670613763170128, guid: d35399cf4d0eb1a459018ae427dd7a2b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569670613763170128, guid: d35399cf4d0eb1a459018ae427dd7a2b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569670613763170128, guid: d35399cf4d0eb1a459018ae427dd7a2b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569670613763170128, guid: d35399cf4d0eb1a459018ae427dd7a2b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569670613763170128, guid: d35399cf4d0eb1a459018ae427dd7a2b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569670613763170128, guid: d35399cf4d0eb1a459018ae427dd7a2b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d35399cf4d0eb1a459018ae427dd7a2b, type: 3}
+--- !u!4 &1001578116026473119 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5569670613763170128, guid: d35399cf4d0eb1a459018ae427dd7a2b,
+    type: 3}
+  m_PrefabInstance: {fileID: 4660416462318011855}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6372108335575646035
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -342,6 +418,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bomboo Stick
+      objectReference: {fileID: 0}
+    - target: {fileID: 3879040764109155412, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_Name
+      value: Bamboo_Cut_Stick_1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b187fe051b4a1844bafcc672a3a6b50e, type: 3}

@@ -3,40 +3,34 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Transform))]
+[RequireComponent(typeof(IBamboo))]
 public class BambooSlot : MonoBehaviour
 {
-    public GameObject bamboo = null;
-    [HideInInspector] public GameObject bambooOnGround = null;
+    public PlayerMovement playerMovement;
+    public IBamboo bittenBamboo = null;
+    [HideInInspector] public IBamboo targetBamboo = null;
     public Transform Mouth;
-    private Transform oldParent;
 
-    public void EquipBamboo(GameObject bamboo)
+    public void BiteBamboo()
     {
-        this.bamboo = bamboo;
-        oldParent = bamboo.transform.parent;
-        bamboo.transform.SetParent(Mouth);
-        bamboo.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
-        bamboo.transform.position = Mouth.position;
-        bamboo.transform.rotation = Mouth.rotation;
-        bamboo.GetComponent<Collider>().enabled = false;
+        playerMovement.speedMultiplier = targetBamboo.GetSpeedMultiplier();
     }
 
     public void DropBamboo()
     {
-        bamboo.transform.SetParent(oldParent);
-        bamboo.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
-        bamboo.GetComponent<Collider>().enabled = true;
-        bamboo = null;
+        playerMovement.speedMultiplier = targetBamboo.LetGo();
     }
 
     private void Update()
     {
         if (Input.GetButtonDown("Jump"))
         {
-            if (bamboo == null && bambooOnGround != null)
-                EquipBamboo(bambooOnGround);
-            else if (bamboo != null)
+            if (bittenBamboo == null)
+            {
+                if (targetBamboo != null)
+                    BiteBamboo();
+            }
+            else
                 DropBamboo();
         }
     }
