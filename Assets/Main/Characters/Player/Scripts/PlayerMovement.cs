@@ -3,7 +3,8 @@
 public class PlayerMovement : MonoBehaviour
 {
     public Animator animator;
-    public float speed;
+    public BambooSlot bambooSlot;
+    public float speed, speedMultiplier;
 
     private float horizontal = 0, vertical = 0;
 
@@ -15,7 +16,6 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        
         transform.Translate(new Vector3(horizontal * speed * Time.deltaTime, 0,  vertical * speed * Time.deltaTime));
         animator.SetFloat("Horizontal", horizontal);
         animator.SetFloat("Vertical", vertical);

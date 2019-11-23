@@ -76,7 +76,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7add8e6995d50564cb7732cb7f497041, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouth: {fileID: 8843075423345504762}
+  bambooSlot: {fileID: 7471337594422605220}
 --- !u!1 &3280455147683710865
 GameObject:
   m_ObjectHideFlags: 0
@@ -236,6 +236,7 @@ GameObject:
   - component: {fileID: 1501701800155934842}
   - component: {fileID: 5892349464439431194}
   - component: {fileID: 893855131849663110}
+  - component: {fileID: 7471337594422605220}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -301,6 +302,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42662e947ffe79a49a4aabebc6856b19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camera: {fileID: 2796546218888509613}
+  sensitivityX: 1500
+  sensitivityY: 300
 --- !u!114 &893855131849663110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -314,7 +318,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 6471417986672641719}
+  bambooSlot: {fileID: 0}
   speed: 2
+  speedMultiplier: 0
+--- !u!114 &7471337594422605220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8114902662426691022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e484a88f856becb4da01f6aa0c8422c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bamboo: {fileID: 0}
+  bambooOnGround: {fileID: 0}
+  Mouth: {fileID: 8843075423345504762}
 --- !u!1001 &7486052930357392208
 PrefabInstance:
   m_ObjectHideFlags: 0

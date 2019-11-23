@@ -29,6 +29,7 @@
             <e p="Player" t="Include">
               <e p="Scripts" t="Include">
                 <e p="BambooDetector.cs" t="Include" />
+                <e p="BambooSlot.cs" t="Include" />
                 <e p="CameraFollow.cs" t="Include" />
                 <e p="PlayerMovement.cs" t="Include" />
               </e>
