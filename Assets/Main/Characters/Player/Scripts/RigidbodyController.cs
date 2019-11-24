@@ -7,26 +7,24 @@ public class RigidbodyController : MonoBehaviour
     private Animator _anim;
     public float speed = 2f;
     public float speedMultiplier = 1f;
-    //public float JumpHeight = 2f;
-    //public float GroundDistance = 0.2f;
-    //public LayerMask Ground;
+    public float jumpHeight = 1f;
+    public float groundDistance = 0.2f;
+    public LayerMask ground;
 
     private Rigidbody _body;
     private Vector3 _inputs = Vector3.zero;
-    //private bool _isGrounded = true;
-    //private Transform _groundChecker;
+    private bool _isGrounded = true;
+    [SerializeField] private Transform _groundChecker;
 
     void Start()
     {
         _anim = GetComponentInChildren<Animator>();
         _body = GetComponent<Rigidbody>();
-        //_groundChecker = transform.GetChild(0);
     }
 
     void Update()
     {
-        //_isGrounded = Physics.CheckSphere(_groundChecker.position, GroundDistance, Ground, QueryTriggerInteraction.Ignore);
-        //print(_isGrounded);
+        _isGrounded = Physics.CheckSphere(_groundChecker.position, groundDistance, ground, QueryTriggerInteraction.Ignore);
         _inputs = Vector3.zero;
         _inputs.x = Input.GetAxis("Horizontal");
         _inputs.z = Input.GetAxis("Vertical");
@@ -34,10 +32,10 @@ public class RigidbodyController : MonoBehaviour
         _anim.SetFloat("Vertical", _inputs.z);
         _anim.SetFloat("SpeedMultiplier", speedMultiplier);
 
-        /*if (Input.GetButtonDown("Jump") && _isGrounded)
+        if (Input.GetButtonDown("Jump") && _isGrounded)
         {
-            _body.AddForce(Vector3.up * Mathf.Sqrt(JumpHeight * -2f * Physics.gravity.y), ForceMode.VelocityChange);
-        }*/
+            _body.AddForce(Vector3.up * Mathf.Sqrt(jumpHeight * -2f * Physics.gravity.y), ForceMode.VelocityChange);
+        }
     }
     
     void FixedUpdate()

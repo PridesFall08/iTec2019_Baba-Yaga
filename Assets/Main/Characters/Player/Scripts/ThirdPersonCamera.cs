@@ -12,6 +12,7 @@ public class ThirdPersonCamera : MonoBehaviour {
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         if (offset == default)
             offset = target.transform.position - transform.position;
     }
@@ -25,8 +26,14 @@ public class ThirdPersonCamera : MonoBehaviour {
             transform.localPosition = offset;
             transform.LookAt(target.transform);
             if (Input.GetButtonDown("Cancel"))
+            {
                 Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+            }
         } else if (Input.GetButtonDown("Cancel"))
+        {
             Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
     }
 }

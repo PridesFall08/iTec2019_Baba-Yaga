@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/External/Examples/Universal Render Pipeline Example/Scenes/SampleScene.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
+    path: Assets/Main/Scenes/Menu/Main_Menu.unity
+    guid: 684d7984b1a73c2428c0b8fe98eee921
+  - enabled: 1
+    path: Assets/Main/Scenes/China/China_Forest.unity
+    guid: db4456f22301d534e80c5fc00d6aea11
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 872b2031672509446bfd8b44e6b39771,
       type: 2}

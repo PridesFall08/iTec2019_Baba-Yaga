@@ -30,7 +30,7 @@ public class BambooHolder : MonoBehaviour
     
     private void Update()
     {
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetKeyDown("e"))
         {
             if (scannedBamboo != null)
             {
