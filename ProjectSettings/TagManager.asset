@@ -4,9 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Bamboo_small
-  - BitePoint
   - Bamboo
+  - Tester
+  - Npc
   layers:
   - Default
   - TransparentFX

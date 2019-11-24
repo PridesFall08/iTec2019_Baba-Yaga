@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 3825199901545491319}
   - component: {fileID: 8324835976429765677}
   - component: {fileID: 4406286909828406041}
+  - component: {fileID: 1226793062560530908}
+  - component: {fileID: 465977774413837459}
   m_Layer: 0
   m_Name: Panda_Npc_1
   m_TagString: Untagged
@@ -66,6 +68,31 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.3325711, y: 1.3089676, z: 0.89534605}
   m_Center: {x: 0.031677682, y: 0.64139557, z: 0.0000000011424437}
+--- !u!65 &1226793062560530908
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238284870439967076}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.3325711, y: 1.3089676, z: 0.89534605}
+  m_Center: {x: 0.031677682, y: 0.64139557, z: 0.0000000011424437}
+--- !u!114 &465977774413837459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238284870439967076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5349cfe20514be44a20257c5f29e5b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &250556091695639084
 GameObject:
   m_ObjectHideFlags: 0
