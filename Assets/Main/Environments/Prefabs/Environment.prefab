@@ -1,5 +1,55 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &124498748000236037
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5805889853986070002}
+  m_Layer: 0
+  m_Name: Bamboo_Pieces
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5805889853986070002
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124498748000236037}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6288520698088729039}
+  - {fileID: 8462653082151905197}
+  - {fileID: 7499111179146669980}
+  - {fileID: 8229247025393919198}
+  - {fileID: 4367408560456883135}
+  - {fileID: 1500020077823702174}
+  - {fileID: 5139509687045252025}
+  - {fileID: 654735583503940548}
+  - {fileID: 198754754949082082}
+  - {fileID: 2371331566092371375}
+  - {fileID: 4591916553501936847}
+  - {fileID: 3133159014664703061}
+  - {fileID: 6129053645650606882}
+  - {fileID: 5029831148988007345}
+  - {fileID: 1323583856799238746}
+  - {fileID: 8183186052411213224}
+  - {fileID: 1496790291250016827}
+  - {fileID: 1437947523665551630}
+  - {fileID: 4580759522741777744}
+  - {fileID: 3079734047696500883}
+  m_Father: {fileID: 7629346001247314506}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3606219644947312367
 GameObject:
   m_ObjectHideFlags: 0
@@ -11,7 +61,7 @@ GameObject:
   - component: {fileID: 7790374868085699105}
   - component: {fileID: 4317434653677007797}
   - component: {fileID: 5959187664200681494}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,6 +155,8 @@ Transform:
   m_Children:
   - {fileID: 1326114116634979109}
   - {fileID: 6811525820480325955}
+  - {fileID: 1598874582148568476}
+  - {fileID: 7629346001247314506}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -138,6 +190,37 @@ Transform:
   - {fileID: 2716016582565476447}
   m_Father: {fileID: 1494840768795117846}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5060836355297826864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1598874582148568476}
+  m_Layer: 0
+  m_Name: Npc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1598874582148568476
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5060836355297826864}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6559613291674146937}
+  m_Father: {fileID: 1494840768795117846}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6633263261346102475
 GameObject:
@@ -200,3 +283,1609 @@ Transform:
   m_Father: {fileID: 6811525820480325955}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8402874872947257871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7629346001247314506}
+  m_Layer: 0
+  m_Name: Props
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7629346001247314506
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8402874872947257871}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5805889853986070002}
+  m_Father: {fileID: 1494840768795117846}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &18812641554193388
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5805889853986070002}
+    m_Modifications:
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.19854863
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98009104
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -22.904001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9160293822453953405, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_Name
+      value: Bamboo Stick (16)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b187fe051b4a1844bafcc672a3a6b50e, type: 3}
+--- !u!4 &1496790291250016827 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+    type: 3}
+  m_PrefabInstance: {fileID: 18812641554193388}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &24307426107366729
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5805889853986070002}
+    m_Modifications:
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.9466674
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.0640907
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.13480751
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99087185
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -15.495001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9160293822453953405, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_Name
+      value: Bamboo Stick (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b187fe051b4a1844bafcc672a3a6b50e, type: 3}
+--- !u!4 &1500020077823702174 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+    type: 3}
+  m_PrefabInstance: {fileID: 24307426107366729}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &493478036312679309
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5805889853986070002}
+    m_Modifications:
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.86296713
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.50526005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 119.30301
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9160293822453953405, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_Name
+      value: Bamboo Stick (14)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b187fe051b4a1844bafcc672a3a6b50e, type: 3}
+--- !u!4 &1323583856799238746 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+    type: 3}
+  m_PrefabInstance: {fileID: 493478036312679309}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &537021883952318681
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5805889853986070002}
+    m_Modifications:
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 14.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.5879253
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8089152
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 72.020004
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9160293822453953405, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_Name
+      value: Bamboo Stick (17)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b187fe051b4a1844bafcc672a3a6b50e, type: 3}
+--- !u!4 &1437947523665551630 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+    type: 3}
+  m_PrefabInstance: {fileID: 537021883952318681}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1604795821709247029
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5805889853986070002}
+    m_Modifications:
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.86296713
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.50526005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 119.30301
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9160293822453953405, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_Name
+      value: Bamboo Stick (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b187fe051b4a1844bafcc672a3a6b50e, type: 3}
+--- !u!4 &198754754949082082 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1604795821709247029}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2130600246594851347
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5805889853986070002}
+    m_Modifications:
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.536248
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.0865421
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.89423
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.44760785
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 126.81901
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9160293822453953405, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_Name
+      value: Bamboo Stick (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b187fe051b4a1844bafcc672a3a6b50e, type: 3}
+--- !u!4 &654735583503940548 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+    type: 3}
+  m_PrefabInstance: {fileID: 2130600246594851347}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2890002385825067624
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5805889853986070002}
+    m_Modifications:
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.020234
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.642928
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.35269317
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.93573904
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 41.304
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9160293822453953405, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_Name
+      value: Bamboo Stick (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b187fe051b4a1844bafcc672a3a6b50e, type: 3}
+--- !u!4 &4367408560456883135 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+    type: 3}
+  m_PrefabInstance: {fileID: 2890002385825067624}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3104492717035019399
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5805889853986070002}
+    m_Modifications:
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.19854863
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98009104
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -22.904001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9160293822453953405, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_Name
+      value: Bamboo Stick (18)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b187fe051b4a1844bafcc672a3a6b50e, type: 3}
+--- !u!4 &4580759522741777744 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3104492717035019399}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3116135728440026392
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5805889853986070002}
+    m_Modifications:
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.200381
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.4814143
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.60695624
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7947353
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 74.739006
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9160293822453953405, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_Name
+      value: Bamboo Stick (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b187fe051b4a1844bafcc672a3a6b50e, type: 3}
+--- !u!4 &4591916553501936847 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3116135728440026392}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3778474282706889848
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5805889853986070002}
+    m_Modifications:
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.496648
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.2556078
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.49661556
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8679707
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 59.553
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9160293822453953405, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_Name
+      value: Bamboo Stick (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b187fe051b4a1844bafcc672a3a6b50e, type: 3}
+--- !u!4 &2371331566092371375 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3778474282706889848}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4483921551930560836
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5805889853986070002}
+    m_Modifications:
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.55368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8327295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -67.240005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9160293822453953405, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_Name
+      value: Bamboo Stick (19)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b187fe051b4a1844bafcc672a3a6b50e, type: 3}
+--- !u!4 &3079734047696500883 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+    type: 3}
+  m_PrefabInstance: {fileID: 4483921551930560836}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4610640037423162754
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5805889853986070002}
+    m_Modifications:
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.19854863
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98009104
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -22.904001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9160293822453953405, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_Name
+      value: Bamboo Stick (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b187fe051b4a1844bafcc672a3a6b50e, type: 3}
+--- !u!4 &3133159014664703061 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+    type: 3}
+  m_PrefabInstance: {fileID: 4610640037423162754}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4722511262120612597
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5805889853986070002}
+    m_Modifications:
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.55368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8327295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -67.240005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9160293822453953405, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_Name
+      value: Bamboo Stick (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b187fe051b4a1844bafcc672a3a6b50e, type: 3}
+--- !u!4 &6129053645650606882 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+    type: 3}
+  m_PrefabInstance: {fileID: 4722511262120612597}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4882517071229812760
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5805889853986070002}
+    m_Modifications:
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.19854863
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98009104
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -22.904001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9160293822453953405, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_Name
+      value: Bamboo Stick
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b187fe051b4a1844bafcc672a3a6b50e, type: 3}
+--- !u!4 &6288520698088729039 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+    type: 3}
+  m_PrefabInstance: {fileID: 4882517071229812760}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5857762471016278630
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5805889853986070002}
+    m_Modifications:
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.4460063
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.89502984
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -52.975002
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9160293822453953405, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_Name
+      value: Bamboo Stick (13)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b187fe051b4a1844bafcc672a3a6b50e, type: 3}
+--- !u!4 &5029831148988007345 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+    type: 3}
+  m_PrefabInstance: {fileID: 5857762471016278630}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6040536550681922158
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5805889853986070002}
+    m_Modifications:
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.5879253
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8089152
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 72.020004
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9160293822453953405, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_Name
+      value: Bamboo Stick (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b187fe051b4a1844bafcc672a3a6b50e, type: 3}
+--- !u!4 &5139509687045252025 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+    type: 3}
+  m_PrefabInstance: {fileID: 6040536550681922158}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7058861410829028986
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5805889853986070002}
+    m_Modifications:
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.965846
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.3994792
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.55368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8327295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -67.240005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9160293822453953405, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_Name
+      value: Bamboo Stick (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b187fe051b4a1844bafcc672a3a6b50e, type: 3}
+--- !u!4 &8462653082151905197 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+    type: 3}
+  m_PrefabInstance: {fileID: 7058861410829028986}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7284567389957319807
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5805889853986070002}
+    m_Modifications:
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.86296713
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.50526005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 119.30301
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9160293822453953405, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_Name
+      value: Bamboo Stick (15)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b187fe051b4a1844bafcc672a3a6b50e, type: 3}
+--- !u!4 &8183186052411213224 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+    type: 3}
+  m_PrefabInstance: {fileID: 7284567389957319807}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7400355061183892745
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5805889853986070002}
+    m_Modifications:
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.266652
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.0627503
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.5879253
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8089152
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 72.020004
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9160293822453953405, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_Name
+      value: Bamboo Stick (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b187fe051b4a1844bafcc672a3a6b50e, type: 3}
+--- !u!4 &8229247025393919198 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+    type: 3}
+  m_PrefabInstance: {fileID: 7400355061183892745}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7934703194533360398
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1598874582148568476}
+    m_Modifications:
+    - target: {fileID: 238284870439967076, guid: 8a9b0ca88b9651844b1992fbd3a92434,
+        type: 3}
+      propertyPath: m_Name
+      value: Panda_Npc_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825199901545491319, guid: 8a9b0ca88b9651844b1992fbd3a92434,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825199901545491319, guid: 8a9b0ca88b9651844b1992fbd3a92434,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.077
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825199901545491319, guid: 8a9b0ca88b9651844b1992fbd3a92434,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825199901545491319, guid: 8a9b0ca88b9651844b1992fbd3a92434,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825199901545491319, guid: 8a9b0ca88b9651844b1992fbd3a92434,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.89998573
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825199901545491319, guid: 8a9b0ca88b9651844b1992fbd3a92434,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825199901545491319, guid: 8a9b0ca88b9651844b1992fbd3a92434,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.43591928
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825199901545491319, guid: 8a9b0ca88b9651844b1992fbd3a92434,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825199901545491319, guid: 8a9b0ca88b9651844b1992fbd3a92434,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825199901545491319, guid: 8a9b0ca88b9651844b1992fbd3a92434,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -128.31201
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825199901545491319, guid: 8a9b0ca88b9651844b1992fbd3a92434,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8a9b0ca88b9651844b1992fbd3a92434, type: 3}
+--- !u!4 &6559613291674146937 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3825199901545491319, guid: 8a9b0ca88b9651844b1992fbd3a92434,
+    type: 3}
+  m_PrefabInstance: {fileID: 7934703194533360398}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8977168066825193035
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5805889853986070002}
+    m_Modifications:
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.171276
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.89051974
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.4460063
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.89502984
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -52.975002
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9160293822453953405, guid: b187fe051b4a1844bafcc672a3a6b50e,
+        type: 3}
+      propertyPath: m_Name
+      value: Bamboo Stick (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b187fe051b4a1844bafcc672a3a6b50e, type: 3}
+--- !u!4 &7499111179146669980 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1479290819304892887, guid: b187fe051b4a1844bafcc672a3a6b50e,
+    type: 3}
+  m_PrefabInstance: {fileID: 8977168066825193035}
+  m_PrefabAsset: {fileID: 0}

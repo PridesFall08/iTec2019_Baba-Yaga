@@ -28,18 +28,18 @@
           <e p="Characters" t="Include">
             <e p="Player" t="Include">
               <e p="Scripts" t="Include">
-                <e p="BambooDetector.cs" t="Include" />
-                <e p="BambooSlot.cs" t="Include" />
-                <e p="CameraFollow.cs" t="Include" />
-                <e p="PlayerMovement.cs" t="Include" />
+                <e p="BambooHolder.cs" t="Include" />
+                <e p="BambooScanner.cs" t="Include" />
+                <e p="RigidbodyController.cs" t="Include" />
+                <e p="ThirdPersonCamera.cs" t="Include" />
               </e>
             </e>
           </e>
           <e p="Props" t="Include">
             <e p="Bamboo" t="Include">
               <e p="Scripts" t="Include">
+                <e p="Bamboo.cs" t="Include" />
                 <e p="BigBamboo.cs" t="Include" />
-                <e p="IBamboo.cs" t="Include" />
                 <e p="SmallBamboo.cs" t="Include" />
               </e>
             </e>

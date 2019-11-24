@@ -37,7 +37,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -5010463547993817008}
-    m_Position: {x: 70, y: 240, z: 0}
+    m_Position: {x: 70, y: 230, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -57,7 +57,7 @@ BlendTree:
   m_Name: Walking
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 3029236411972144159, guid: 5aa6a3b9df26aea4aa007ca4e5357310,
+    m_Motion: {fileID: 3029236411972144159, guid: 1cbf1052624b98045aa196aa30a05c2c,
       type: 3}
     m_Threshold: 0
     m_Position: {x: 0, y: 1}
@@ -66,7 +66,7 @@ BlendTree:
     m_DirectBlendParameter: Horizontal
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: -2626035779850765055, guid: 5aa6a3b9df26aea4aa007ca4e5357310,
+    m_Motion: {fileID: -2626035779850765055, guid: 1cbf1052624b98045aa196aa30a05c2c,
       type: 3}
     m_Threshold: 0.25
     m_Position: {x: 0, y: -1}
@@ -75,7 +75,7 @@ BlendTree:
     m_DirectBlendParameter: Horizontal
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 4303220117312894917, guid: 5aa6a3b9df26aea4aa007ca4e5357310,
+    m_Motion: {fileID: 4303220117312894917, guid: 1cbf1052624b98045aa196aa30a05c2c,
       type: 3}
     m_Threshold: 0.5
     m_Position: {x: -1, y: 0}
@@ -84,7 +84,7 @@ BlendTree:
     m_DirectBlendParameter: Horizontal
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: -1640175522652586097, guid: 5aa6a3b9df26aea4aa007ca4e5357310,
+    m_Motion: {fileID: -1640175522652586097, guid: 1cbf1052624b98045aa196aa30a05c2c,
       type: 3}
     m_Threshold: 0.75
     m_Position: {x: 1, y: 0}
@@ -93,7 +93,7 @@ BlendTree:
     m_DirectBlendParameter: Horizontal
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7758195086023935477, guid: 5aa6a3b9df26aea4aa007ca4e5357310,
+    m_Motion: {fileID: 7758195086023935477, guid: 1cbf1052624b98045aa196aa30a05c2c,
       type: 3}
     m_Threshold: 1
     m_Position: {x: 0, y: 0}
@@ -114,7 +114,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PlayerAnimator
+  m_Name: Player_Animator
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Horizontal
@@ -122,19 +122,19 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Vertical
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: SpeedMultiplier
     m_Type: 1
     m_DefaultFloat: 1
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
