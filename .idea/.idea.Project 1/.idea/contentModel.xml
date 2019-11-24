@@ -35,12 +35,14 @@
               </e>
             </e>
           </e>
-          <e p="Props" t="Include">
-            <e p="Bamboo" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="Bamboo.cs" t="Include" />
-                <e p="BigBamboo.cs" t="Include" />
-                <e p="SmallBamboo.cs" t="Include" />
+          <e p="Environments" t="Include">
+            <e p="Props" t="Include">
+              <e p="Bamboo" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="Bamboo.cs" t="Include" />
+                  <e p="BigBamboo.cs" t="Include" />
+                  <e p="SmallBamboo.cs" t="Include" />
+                </e>
               </e>
             </e>
           </e>
