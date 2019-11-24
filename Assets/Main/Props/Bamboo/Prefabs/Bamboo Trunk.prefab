@@ -77,8 +77,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.4061131, y: 0.20857808, z: 0.19210665}
-  m_Center: {x: -0.024578333, y: 0.016838685, z: -0.009603426}
+  m_Size: {x: 3.1882412, y: 0.27892816, z: 0.29970112}
+  m_Center: {x: -0.03078574, y: 0.027184308, z: -0.013741657}
 --- !u!54 &7812501706567435585
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -110,6 +110,8 @@ MonoBehaviour:
   _speedMultiplier: 0.5
   bambooSnapPoint1: {fileID: 4947079305389876410}
   bambooSnapPoint2: {fileID: 2910832280390866516}
+  _mouthSnapPoint1: {fileID: 0}
+  _mouthSnapPoint2: {fileID: 0}
 --- !u!1 &7257422387202618964
 GameObject:
   m_ObjectHideFlags: 0
@@ -166,8 +168,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7789276571283446483}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalPosition: {x: 0.006393, y: -0.011832, z: 0.0052724}
+  m_LocalScale: {x: 0.13245, y: 0.13245, z: 0.13245}
   m_Children: []
   m_Father: {fileID: 5569670613763170128}
   m_RootOrder: 0

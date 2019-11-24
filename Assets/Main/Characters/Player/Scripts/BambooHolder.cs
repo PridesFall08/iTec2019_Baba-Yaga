@@ -34,13 +34,13 @@ public class BambooHolder : MonoBehaviour
         {
             if (scannedBamboo != null)
             {
-                if (equippedBamboo == null)
-                    EquipBamboo();
+                if (equippedBamboo != null)
+                    UnequipBamboo();
+                else
+                    EquipBamboo();    
             }
             else if (equippedBamboo != null)
-            {
                 UnequipBamboo();
-            }
         }
     }
 }

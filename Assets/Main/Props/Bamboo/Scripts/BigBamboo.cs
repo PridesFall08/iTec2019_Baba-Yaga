@@ -51,6 +51,7 @@ public class BigBamboo : Bamboo
             Math.Abs(transform.position.y - bsp.position.y),
             Math.Abs(transform.position.z - bsp.position.z));
         Vector3 newOrigin = msp.position - offset;
+        //print(offset);
         _body.MovePosition(newOrigin);
     }
     

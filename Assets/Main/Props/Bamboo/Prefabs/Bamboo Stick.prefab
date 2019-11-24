@@ -76,8 +76,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.4442999, y: 0.14193209, z: 0.13829458}
-  m_Center: {x: 0.01, y: 0.0049360394, z: -0.0070566535}
+  m_Size: {x: 1.6749383, y: 0.15802307, z: 0.16586724}
+  m_Center: {x: -0.0034092069, y: 0.0022541285, z: -0.0043748133}
 --- !u!54 &3866228304100389830
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -107,7 +107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speedMultiplier: 0.7
-  snapPoint: {fileID: 0}
+  bambooSnapPoint: {fileID: 0}
 --- !u!1001 &5112977643409716573
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -123,17 +123,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 07a657cfaebf5ba479873641346fc12f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.134
+      value: -0.15485
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 07a657cfaebf5ba479873641346fc12f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.00059392
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 07a657cfaebf5ba479873641346fc12f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.00093298
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 07a657cfaebf5ba479873641346fc12f,
         type: 3}
@@ -178,17 +178,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 07a657cfaebf5ba479873641346fc12f,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.07
+      value: 0.0805
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 07a657cfaebf5ba479873641346fc12f,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.07
+      value: 0.0805
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 07a657cfaebf5ba479873641346fc12f,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.07
+      value: 0.0805
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07a657cfaebf5ba479873641346fc12f, type: 3}
