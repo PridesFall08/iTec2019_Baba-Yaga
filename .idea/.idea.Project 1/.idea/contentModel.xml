@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\adipo\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\adipo\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Project 1.10548174.00" t="ExcludeRecursive" />
+    <e p="F:\Hackathons\Baba-Yaga\iTec 2019\Project 1" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="External" t="Include">
+          <e p="Examples" t="Include">
+            <e p="Universal Render Pipeline Example" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="SimpleCameraController.cs" t="Include" />
+              </e>
+              <e p="TutorialInfo" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="Editor" t="Include">
+                    <e p="ReadmeEditor.cs" t="Include" />
+                  </e>
+                  <e p="Readme.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="Toon.shader" t="Include" />
+          </e>
+          <e p="TextMesh Pro" t="Include">
+            <e p="Fonts" t="Include">
+              <e p="LiberationSans - OFL.txt" t="Include" />
+            </e>
+            <e p="Resources" t="Include">
+              <e p="LineBreaking Following Characters.txt" t="Include" />
+              <e p="LineBreaking Leading Characters.txt" t="Include" />
+              <e p="Shaders" t="Include">
+                <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+                <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+                <e p="TMP_Bitmap.shader" t="Include" />
+                <e p="TMP_SDF Overlay.shader" t="Include" />
+                <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+                <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+                <e p="TMP_SDF-Mobile.shader" t="Include" />
+                <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+                <e p="TMP_SDF-Surface.shader" t="Include" />
+                <e p="TMP_SDF.shader" t="Include" />
+                <e p="TMP_Sprite.shader" t="Include" />
+                <e p="TMPro.cginc" t="Include" />
+                <e p="TMPro_Properties.cginc" t="Include" />
+                <e p="TMPro_Surface.cginc" t="Include" />
+              </e>
+            </e>
+            <e p="Sprites" t="Include">
+              <e p="EmojiOne Attribution.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Main" t="Include">
+          <e p="Characters" t="Include">
+            <e p="Player" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="BambooHolder.cs" t="Include" />
+                <e p="BambooScanner.cs" t="Include" />
+                <e p="RigidbodyController.cs" t="Include" />
+                <e p="ThirdPersonCamera.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Environments" t="Include">
+            <e p="Props" t="Include">
+              <e p="Bamboo" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="Bamboo.cs" t="Include" />
+                  <e p="BigBamboo.cs" t="Include" />
+                  <e p="SmallBamboo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="GUI" t="Include">
+            <e p="Main_Menu" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="MainMenu.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Timer.cs" t="Include" />
+        </e>
+        <e p="NpcTester.cs" t="Include" />
+        <e p="QuitGame.cs" t="Include" />
+        <e p="RainMaker" t="Include">
+          <e p="Demo" t="Include">
+            <e p="DemoScript.cs" t="Include" />
+            <e p="DemoScript2D.cs" t="Include" />
+            <e p="DemoScriptStartRainOnSpaceBar.cs" t="Include" />
+          </e>
+          <e p="Editor" t="Include">
+            <e p="RainMakerEditor.cs" t="Include" />
+          </e>
+          <e p="Prefab" t="Include">
+            <e p="BaseRainScript.cs" t="Include" />
+            <e p="RainCollision.cs" t="Include" />
+            <e p="RainScript.cs" t="Include" />
+            <e p="RainScript2D.cs" t="Include" />
+            <e p="RainShader.shader" t="Include" />
+          </e>
+          <e p="Readme.txt" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Project 1.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
